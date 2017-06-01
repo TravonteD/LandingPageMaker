@@ -1,0 +1,81 @@
+/*General*/
+
+*{
+	box-sizing:borderbox;
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	min-height: 100%;
+}
+body{
+	font-family: san-serif;
+}
+
+/*This hides and reveals the pages on the fly*/
+.hidden {
+	display:none;
+}
+/*this is for the initial form page*/
+.start, .page-1, .page-2, .page-3, .page-4, .page-5, .page-6{
+	text-align: center;
+	margin-top: 25px;
+	padding:200px;
+	color: #45D0D5;
+	position: relative;
+}
+.start h1, .page-1 h1, .page-2 h1, .page-3 h1, .page-4 h1, .page-5 h1, .page-6 h1{
+	font-size: 3em;
+}
+.start button, .page-1 button, .page-2 button, .page-3  button, .page-4 button, .page-5 button {
+	margin-top:25px;
+	padding: 15px 30px;
+	background-color:#81dee3;
+	color:#fff;
+	border: 1px;
+	border-radius:25px;
+	font-size: 1.3em;
+	box-shadow: 0px 3px 0px #45D0D5 ;
+}
+button:hover{
+	box-shadow: none;
+}
+
+/*this is for the created page*/
+#hero {
+	padding: 100px;
+	text-align: center;
+}
+#content{
+	width: 80%;
+	margin:auto;
+	padding-top:25px;
+	padding-bottom:25px;
+	text-align: justify;
+}
+footer {
+	padding: 50px;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	width: 100%;
+}
+
+/*THEME SECTION*/
+/*
+	color palette:
+		#45D0D5: bright blue;
+		#fff: white;
+		#81dee3: lighter blue;
+		#c5f1f2: lightest blue;
+*/
+/*Light Theme*/
+.light {
+	color: #45D0D5;
+}
+
+/*Dark Theme*/
+.dark {
+	background: #45D0D5;
+	color: #fff;
+}

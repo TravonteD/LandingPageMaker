@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<title>Quickpage: Make a landing page in minutes</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+		<section class="start">
+			<h1>Welcome to Quickpage</h1>
+			<h4>When you're ready to start building your website click start.</h4>
+			<br>
+			<button id='btn-1'>Start</button>
+		</section>
+		<section class="page-1 hidden">
+			<h1>What is your name?</h1>
+			<br>
+			<input type='text'name='name' id='name'>
+			<br>
+			<button id='btn-2'>Continue</button>
+		</section>
+		<section class="page-2 hidden">
+			<h1>What is your Slogan/catchphrase?</h1>
+			<br>
+			<input type='text' id='slogan'>
+			<br>
+			<button id='btn-3'>Continue</button>
+		</section>
+		<section class="page-3 hidden">
+			<h1>Give us a brief bio about yourself</h1>
+			<br>
+			<textarea id='bio'></textarea>
+			<br>
+			<button id='btn-4'>Continue</button>
+		</section>
+		<section class="page-4 hidden">
+			<h1>What is the title of your site?</h1>
+			<br>
+			<input type='text' id='title'>
+			<br>
+			<button id='btn-5'>Continue</button>
+		</section>
+		<section class="newPage">
+			<div id='hero'>
+				<h1 id='newTitle'></h1>
+				<h3 id='newSlogan'></h3>
+			</div>
+			<div id='content'><p id='newBio'></p></div>
+			<footer><span id='copyright'></span></footer>
+		</section>
+
+</body>
+</html>
